@@ -19,6 +19,14 @@
 // STEP 5: Use console.log to print ALL three values in one message.
 //         Example idea: "My name is ___, I am ___ years old, and my favorite color is ___."
 
+let firstName = "Harim";
+let age = 22;
+let favoriteColor = "blue";
+
+console.log(
+  `"My name is ${firstName}, I am ${age} years old, and my favorite color is ${favoriteColor}."`
+);
+
 // ==============================================
 // TASK 2 – REASSIGNMENT WITH let
 // ==============================================
