@@ -42,6 +42,13 @@ console.log(
 // STEP 9: Use console.log to print a new message:
 //         "Now, my favorite color is ___."
 
+let currentColor = "red";
+
+console.log(`At first, my favorite color was ${currentColor}.`);
+
+currentColor = "Green";
+console.log(`Now, my favorite color is ${currentColor}`);
+
 // ==============================================
 // TASK 3 – SENTENCE WITH TEMPLATE LITERALS
 // ==============================================
@@ -57,6 +64,10 @@ console.log(
 
 // STEP 13: console.log() the introduction variable to see your message.
 
+let personName = "Humberto";
+let personAge = 27;
+let introduction = `Hi, my names is ${personName} and I am ${personAge} years old`;
+console.log(introduction);
 // ==============================================
 // TASK 4 – let VS const
 // ==============================================
@@ -76,3 +87,10 @@ console.log(
 //          in another line of code.
 //          Hint: This should cause an error in the console.
 //          (This shows that const cannot be reassigned.)
+
+let mood = "happy";
+console.log(mood);
+mood = "excited";
+console.log(mood);
+const birthYear = 1995;
+birthYear = 1;
